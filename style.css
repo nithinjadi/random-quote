@@ -1,0 +1,37 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:black;
+    gap:20px;
+    /* background-color: rgb(136, 255, 127); */
+}
+div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 20px;
+    width:fit-content;
+    height:60px;
+    padding:10px;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: white;
+}
+button{
+    padding:10px;
+    outline:none;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: lightcoral;
+}
+#quote{
+   background-color: black;
+   color:wheat;
+   padding: 10px;
+   display:block;
+   font-size: 25px;
+   font-weight: 700px;
+}
